@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Header from './components/Header';
+import { Header, Categories } from './components'; // webpack при сборке сначала ищет файл index.js по указанному пути
 
 function App() {
   return (
@@ -10,16 +10,10 @@ function App() {
       <div className="content">
         <div className="container">
           <div className="content__top">
-            <div className="categories">
-              <ul>
-                <li className="active">Все</li>
-                <li>Шпонированные</li>
-                <li>Экошпон</li>
-                <li>ПВХ</li>
-                <li>Массив</li>
-                <li>Эмаль</li>
-              </ul>
-            </div>
+            <Categories
+              onClickItem={(name) => console.log(name)}
+              items={['Шпонированные', 'Экошпон', 'ПВХ', 'Массив', 'Эмаль']}
+            />
             <div className="sort">
               <div className="sort__label">
                 <svg
