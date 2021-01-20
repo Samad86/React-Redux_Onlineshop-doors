@@ -1,0 +1,204 @@
+{
+  "doors": [
+    {
+      "id": 0,
+      "imageUrl": "http://russiadoors.com/sitefiles/fx/245x550/ItemsVarsValues/kCu_bisv_ZPsMw3WaWQTCkBW-hesrzV6.jpeg",
+      "name": "Премьер 2",
+      "types": [0, 1],
+      "sizes": ["700х2000", "800х2000", "900х2000"],
+      "price": 7000,
+      "category": 1,
+      "rating": 4
+    },
+    {
+      "id": 1,
+      "imageUrl": "http://russiadoors.com/sitefiles/fx/245x550/ItemsVarsValues/umbW_zjw9h4czwfv-6BkXB0jdN8ZDOsQ.jpeg",
+      "name": "Стиль",
+      "types": [0, 1],
+      "sizes": ["700х2000", "800х2000", "900х2000"],
+      "price": 5500,
+      "category": 0,
+      "rating": 6
+    },
+    {
+      "id": 2,
+      "imageUrl": "http://russiadoors.com/sitefiles/fx/245x550/ItemsVarsValues/mMURG7h-jf_Rou1ovbJwfMNv2mvY05El.jpg",
+      "name": "Классик",
+      "types": [0, 1],
+      "sizes": ["700х2000", "800х2000"],
+      "price": 8200,
+      "category": 1,
+      "rating": 4
+    },
+    {
+      "id": 3,
+      "imageUrl": "http://russiadoors.com/sitefiles/fx/245x550/Items/ac09731fdef6ed0d8c77b127e6541c9966d21e6a.jpeg",
+      "name": "Венера",
+      "types": [0],
+      "sizes": ["700х2000", "800х2000", "900х2000"],
+      "price": 5000,
+      "category": 2,
+      "rating": 2
+    },
+    {
+      "id": 4,
+      "imageUrl": "http://russiadoors.com/sitefiles/fx/245x550/ItemsVarsValues/9fvieEwIM-p2CBERq1mqe8p8Wj4hUwXQ.jpeg",
+      "name": "Венера макоре",
+      "types": [0, 1],
+      "sizes": ["700х2000", "800х2000", "900х2000"],
+      "price": 5000,
+      "category": 0,
+      "rating": 4
+    },
+    {
+      "id": 5,
+      "imageUrl": "http://russiadoors.com/sitefiles/fx/245x550/Items/4ef0640abb2bdcf4482aeeb88b46b56110b3cfb7.jpeg",
+      "name": "Муза",
+      "types": [0],
+      "sizes": ["700х2000", "800х2000"],
+      "price": 5100,
+      "category": 3,
+      "rating": 6
+    },
+    {
+      "id": 6,
+      "imageUrl": "http://russiadoors.com/sitefiles/fx/245x550/Items/c16387b5856aead1b0f5da10e82ff4d5785054fd.jpeg",
+      "name": "Муза макоре",
+      "types": [0],
+      "sizes": ["700х2000", "800х2000"],
+      "price": 5100,
+      "category": 4,
+      "rating": 9
+    },
+    {
+      "id": 7,
+      "imageUrl": "http://russiadoors.com/sitefiles/fx/245x550/ItemsVarsValues/nXempSd43Yiy_YaVLh6jub9jVTI2Rf01.jpeg",
+      "name": "Муза венге",
+      "types": [0, 1],
+      "sizes": ["700х2000", "800х2000"],
+      "price": 5100,
+      "category": 0,
+      "rating": 2
+    },
+    {
+      "id": 8,
+      "imageUrl": "http://russiadoors.com/sitefiles/fx/245x550/ItemsVarsValues/JEW0t1khJr14-YHLlVjDLCWDj-LT0dlT.jpg",
+      "name": "Лидия",
+      "types": [1],
+      "sizes": ["700х2000", "800х2000", "900х2000"],
+      "price": 2800,
+      "category": 2,
+      "rating": 7
+    },
+    {
+      "id": 9,
+      "imageUrl": "http://russiadoors.com/sitefiles/fx/245x550/Items/da5f03b6c2a2cb2e02e7018aa9c7e4f5e3f897b5.jpeg",
+      "name": "Line",
+      "types": [0],
+      "sizes": ["700х2000", "800х2000"],
+      "price": 4500,
+      "category": 3,
+      "rating": 7
+    },
+    {
+      "id": 10,
+      "imageUrl": "http://russiadoors.com/sitefiles/fx/245x550/Items/03d21d8c605b9394983a98e1aa75df84bdbe36df.jpeg",
+      "name": "Вудлайн",
+      "types": [0],
+      "sizes": ["700х2000", "800х2000", "900х2000"],
+      "price": 6000,
+      "category": 0,
+      "rating": 6
+    },
+    {
+      "id": 11,
+      "imageUrl": "http://russiadoors.com/sitefiles/fx/245x550/Items/cbb062033e3d866da88241532dbea1128939b867.jpg",
+      "name": "Duplex Мателюкс",
+      "types": [0, 1],
+      "sizes": ["700х2000", "800х2000", "900х2000"],
+      "price": 3000,
+      "category": 1,
+      "rating": 7
+    },
+    {
+      "id": 12,
+      "imageUrl": "http://russiadoors.com/sitefiles/fx/245x550/ItemsVarsValues/dTeEAetNFNwwdb3d8jwvPPOWYqf62kJu.jpg",
+      "name": "Linea 1",
+      "types": [0, 1],
+      "sizes": ["700х2000", "800х2000", "900х2000"],
+      "price": 4800,
+      "category": 0,
+      "rating": 6
+    },
+    {
+      "id": 13,
+      "imageUrl": "http://russiadoors.com/sitefiles/fx/245x550/Items/30512b3538f8ca4c4c9eafee7ebb52a9590320d6.jpg",
+      "name": "Linea 2",
+      "types": [0, 1],
+      "sizes": ["700х2000", "800х2000", "900х2000"],
+      "price": 4800,
+      "category": 2,
+      "rating": 8
+    },
+    {
+      "id": 14,
+      "imageUrl": "http://russiadoors.com/sitefiles/fx/245x550/ItemsVarsValues/CXVgz0Qp32Nk7wgZ7cCoj4TtcfPJ4Dfs.jpg",
+      "name": "Imperia",
+      "types": [0, 1],
+      "sizes": ["700х2000", "800х2000", "900х2000"],
+      "price": 3850,
+      "category": 2,
+      "rating": 7
+    },
+    {
+      "id": 15,
+      "imageUrl": "http://russiadoors.com/sitefiles/fx/245x550/ItemsVarsValues/SbRJgiYoJcJOnC2Rodzu8sktVUPtw-uV.jpg",
+      "name": "Верона",
+      "types": [1],
+      "sizes": ["700х2000", "800х2000"],
+      "price": 9400,
+      "category": 0,
+      "rating": 7
+    },
+    {
+      "id": 16,
+      "imageUrl": "http://russiadoors.com/sitefiles/fx/245x550/ItemsVarsValues/U3_8C8YfTBAXPEP093uHs1FbRog-Zau1.jpg",
+      "name": "Соло",
+      "types": [0, 1],
+      "sizes": ["700х2000", "800х2000", "900х2000"],
+      "price": 7500,
+      "category": 4,
+      "rating": 9
+    },
+    {
+      "id": 17,
+      "imageUrl": "http://russiadoors.com/sitefiles/fx/245x550/ItemsVarsValues/JkFhGgtX2kEI_nA9F6rYBnJs0pmoN5aQ.jpg",
+      "name": "Альба",
+      "types": [0],
+      "sizes": ["700х2000", "800х2000"],
+      "price": 9500,
+      "category": 0,
+      "rating": 3
+    },
+    {
+      "id": 18,
+      "imageUrl": "http://russiadoors.com/sitefiles/fx/245x550/ItemsVarsValues/FElCC7QGMEjlq5edQ1Wv8L3KahsYnGAG.jpg",
+      "name": "Водопад",
+      "types": [0, 1],
+      "sizes": ["700х2000", "800х2000", "900х2000"],
+      "price": 2300,
+      "category": 3,
+      "rating": 8
+    },
+    {
+      "id": 19,
+      "imageUrl": "http://russiadoors.com/sitefiles/fx/245x550/ItemsVarsValues/XjVWfIi51oCZUltyVvA04hnWUaABxyK8.jpg",
+      "name": "Кристина",
+      "types": [0, 1],
+      "sizes": ["700х2000", "800х2000", "900х2000"],
+      "price": 1800,
+      "category": 2,
+      "rating": 6
+    }
+  ]
+}
