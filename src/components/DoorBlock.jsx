@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
 function DoorBlock({ imageUrl, name, types, sizes, price }) {
@@ -8,13 +9,8 @@ function DoorBlock({ imageUrl, name, types, sizes, price }) {
   const [activeType, setActiveType] = useState(types[0]);
   const [activeSize, setActiveSize] = useState(sizes[0]);
 
-  const onSelectType = (index) => {
-    setActiveType(index);
-  };
-
-  const onSelectSize = (index) => {
-    setActiveSize(index);
-  };
+  const onSelectType = (index) => setActiveType(index);
+  const onSelectSize = (index) => setActiveSize(index);
 
   return (
     <div className="door-block">
@@ -69,5 +65,20 @@ function DoorBlock({ imageUrl, name, types, sizes, price }) {
     </div>
   );
 }
+
+DoorBlock.propTypes = {
+  imageUrl: PropTypes.string.isRequired, // isRequired - тип imageUrl обязательно должен быть строкой
+  name: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
+  types: PropTypes.arrayOf(PropTypes.number).isRequired, // тип types обязательно должен быть массивом чисел
+  sizes: PropTypes.arrayOf(PropTypes.string).isRequired,
+};
+
+DoorBlock.defaultProps = {
+  name: '---',
+  price: 0,
+  types: [],
+  sizes: [],
+}; // значения пропсов по умолчанию
 
 export default DoorBlock;
